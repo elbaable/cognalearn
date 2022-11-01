@@ -17,7 +17,8 @@ class CoursesFactory extends Factory
     public function definition()
     {
         return [
-            'courseCode' => $this->faker->text(10, true),
+            'name' => $this->faker->name,
+            'courseCode' => $this->faker->word,
             'description' => $this->faker->sentence(45),
             'startDate' => $this->faker->dateTimeThisYear(),
             'endDate' => $this->faker->dateTimeThisMonth('+6 weeks')
