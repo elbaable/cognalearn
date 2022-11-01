@@ -10,5 +10,5 @@
 ## 1. composer install
 ## 2. npm install
 ## 3. npm run serve
-## 4. php artisan serve
-## 5. php artisan migrate --seed
+## 4. php artisan migrate --seed
+## 5. php artisan serve
