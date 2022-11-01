@@ -9,6 +9,10 @@
 
 ## 1. composer install
 ## 2. npm install
-## 3. npm run serve
-## 4. php artisan migrate --seed
-## 5. php artisan serve
+## 3. npm run dev
+## 4. cp .env.example .env
+## 5. php artisan key:generate
+## 6. create database with name cognalearn
+## 7. php artisan migrate --seed
+## 8. php artisan serve
+## 9. Go to link localhost:8000 and enjoy
