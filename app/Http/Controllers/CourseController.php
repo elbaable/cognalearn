@@ -68,7 +68,7 @@ class CourseController extends Controller
                 'endDate' => 'required',
             ], [
                 'name.required' => 'Name field is required.',
-                'courseCode.required' => 'Password field is required.',
+                'courseCode.required' => 'CourseCode field is required.',
                 'description.required' => 'Description field is required.',
                 'startDate.required' => 'Start Date field is required.',
                 'endDate.required' => 'End Date field is required.'
@@ -97,7 +97,7 @@ class CourseController extends Controller
                 'endDate' => 'required',
             ], [
                 'name.required' => 'Name field is required.',
-                'courseCode.required' => 'Password field is required.',
+                'courseCode.required' => 'CourseCode field is required.',
                 'description.required' => 'Description field is required.',
                 'startDate.required' => 'Start Date field is required.',
                 'endDate.required' => 'End Date field is required.'
